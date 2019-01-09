@@ -21,6 +21,7 @@ import java.util.ArrayList;
 public class Entinte extends AppCompatActivity implements View.OnClickListener, ExampleDialog2.ExampleDialogListener {
 
     private Spinner spinner_entonador;
+    private  String nuevo_entonador;
 
 
     @Override
@@ -62,8 +63,10 @@ public class Entinte extends AppCompatActivity implements View.OnClickListener, 
                 // When clicked, show a toast with the TextView text, http://fundoocode.net/android-listview-checkbox-example-onitemclicklistener-and-onclicklistener/
                 PedidoEntinte estePedido = (PedidoEntinte) parent.getItemAtPosition(position);
 //                Toast.makeText(getApplicationContext(),"Clicked on Row: " + esteModulo.getNombreModulo(), Toast.LENGTH_LONG).show();
-                String CantidadDeEstePedido = String.valueOf(estePedido.getmCantidad());
+                String EntonadorDeEstePedido = (estePedido.getmPersonaAsignada());
                 //esteSurtido
+
+
 
 
 
@@ -73,6 +76,9 @@ public class Entinte extends AppCompatActivity implements View.OnClickListener, 
                     // applyText();
 
                     Toast.makeText(Entinte.this,position2.toString(),Toast.LENGTH_LONG).show();
+
+                    estePedido.setmPersonaAsignada("Otro");
+
 
 
 

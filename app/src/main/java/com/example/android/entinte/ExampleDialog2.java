@@ -40,7 +40,7 @@ public class ExampleDialog2 extends AppCompatDialogFragment {
                     }
                 });
 
-        editTextCodigo = view.findViewById(R.id.edit_cantidad_surtida_mp);
+        editTextCodigo = view.findViewById(R.id.edit_persona_asignada_entinte);
 
         return builder.create();
 
