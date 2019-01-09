@@ -6,4 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".Entinte">
 
+    <ListView
+
+        android:id="@+id/lvPedidoEntinte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </android.support.constraint.ConstraintLayout>
