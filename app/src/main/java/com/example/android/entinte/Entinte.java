@@ -75,9 +75,10 @@ public class Entinte extends AppCompatActivity implements View.OnClickListener, 
                     openDialog();
                     // applyText();
 
-                    Toast.makeText(Entinte.this,position2.toString(),Toast.LENGTH_LONG).show();
+                    Toast.makeText(Entinte.this,EntonadorDeEstePedido.toString(),Toast.LENGTH_LONG).show();
 
                     estePedido.setmPersonaAsignada("Otro prueba");
+
 
 
 
